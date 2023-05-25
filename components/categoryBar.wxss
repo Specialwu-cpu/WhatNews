@@ -1,3 +1,4 @@
+/* components/categoryBar.wxss */
 /* 导航栏布局相关 */
 .navbar {
 	width: 100%;

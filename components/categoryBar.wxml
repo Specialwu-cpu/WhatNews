@@ -1,0 +1,6 @@
+<!--components/categoryBar.wxml-->
+<scroll-view scroll-x class="navbar" scroll-with-animation scroll-left="{{scrollLeft}}px">
+  <view class="nav-item" wx:for="{{tabs}}" wx:key="id" bindtap="tabSelect">
+    <view class="nav-text">{{item.name}}</view>
+  </view>
+</scroll-view>
